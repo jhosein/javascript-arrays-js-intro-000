@@ -34,3 +34,7 @@ function destructivelyRemoveElementFromBeginningOfArray(inBoundArray) {
 
   return inBoundArray;
 }
+
+function removeElementFromBeginningOfArray(inBoundArray) {
+  var newArray = inBoundArray.slice(1);
+}
