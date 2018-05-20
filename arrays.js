@@ -44,3 +44,8 @@ function destructivelyRemoveElementFromEndOfArray(inBoundArray) {
   inBoundArray.pop();
   return inBoundArray;
 }
+
+function removeElementFromEndOfArray(inBoundArray) {
+  newArray = inBoundArray.slice(0, inBoundArray.length - 1);
+  return newArray;
+}
