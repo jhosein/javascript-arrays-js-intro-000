@@ -12,3 +12,9 @@ function destructivelyAddElementToBeginningOfArray(inBoundArray, element) {
 
    return inBoundArray;
 }
+
+function addElementToEndOfArray(inBoundArray, element) {
+  var newArray = [element, ...inBoundArray]; //creates new array instead of altering existing
+
+  return newArray;
+}
