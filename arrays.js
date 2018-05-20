@@ -18,3 +18,9 @@ function addElementToEndOfArray(inBoundArray, element) {
 
   return newArray;
 }
+
+function destructivelyAddElementToEndOfArray(inBoundArray, element) {
+  inBoundArray.push(element);
+
+  return inBoundArray;
+}
