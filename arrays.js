@@ -29,7 +29,7 @@ function accessElementInArray(inBoundArray, index) {
   return inBoundArray[index];
 }
 
-destructivelyRemoveElementFromBeginningOfArray(inBoundArray) {
+function destructivelyRemoveElementFromBeginningOfArray(inBoundArray) {
   inBoundArray.shift();
 
   return inBoundArray;
