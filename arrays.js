@@ -7,8 +7,8 @@ function addElementToBeginningOfArray(inBoundArray, element) {
 }
 
 
-//function destructivelyAddElementToBeginningOfArray(inBoundArray, element) {
-//    newArray = [...inBoundArray, element];
+function destructivelyAddElementToBeginningOfArray(inBoundArray, element) {
+    inBoundArray.unshift(element);
 
-//    return newArray;
-//}
+   return inBoundArray;
+}
